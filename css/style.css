@@ -1,0 +1,31 @@
+body {
+    font-family: 'Inconsolata';
+    font-size: 1rem;
+    background-color: #C7741C;
+    color: #F9F3EE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Monoton";
+    font-size: 5rem;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #F9F3EE;
+    border: 2px solid #F9F3EE;
+    background-color: #7A4811;   
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
