@@ -7,11 +7,21 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Monoton";
-    font-size: 5rem;
+    font-size: 50pt;
+    text-align:center;
+}
+h2 { 
+    font-size: 30pt;
 }
 
 header {
     text-align: center;
+}
+
+/*Hero Section*/
+
+#hero img {
+    width: 300px;
 }
 
 #hero, footer {
@@ -22,10 +32,39 @@ header {
     padding: 10px;
 }
 
-#hero img {
-    width: 300px;
-}
+/*Bio Section*/
 
 #bio {
     text-align: center;
+}
+
+/*Hobbies Section*/
+
+#hobbies
+ {
+    text-align:center; 
+}
+
+#hobbies ul li:nth-child(odd) {
+    color: #7A4811;
+}
+
+
+ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+a:hover {
+    color:darkolivegreen
+}
+
+/*Gallery*/
+
+#gallery {
+    border: 2px solid white;
+}
+
+#gallery img {
+    max width:100%;
 }
