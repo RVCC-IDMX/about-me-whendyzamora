@@ -1,6 +1,6 @@
 body {
     font-family: 'Inconsolata';
-    font-size: 1rem;
+    font-size: 2rem;
     background-color: #C7741C;
     color: #F9F3EE;
 }
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align:center;
 }
 h2 { 
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 header {
@@ -32,13 +32,13 @@ header {
     padding: 10px;
 }
 
-/*Bio Section*/
+/* Bio Section */
 
 #bio {
     text-align: center;
 }
 
-/*Hobbies Section*/
+/* Hobbies Section */
 
 #hobbies
  {
@@ -59,10 +59,11 @@ a:hover {
     color:darkolivegreen
 }
 
-/*Gallery*/
+/* Gallery */
 
 #gallery {
     border: 2px solid white;
+    margin-bottom:2rem;
 }
 
 #gallery img {
@@ -72,3 +73,45 @@ a:hover {
 #gallery figure {
     text-align: center;
 }
+
+/* Literature */
+
+}
+
+#lit {
+    text-align: right;
+    text-align: left;
+    border: 2px solid white;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+}
+
+/* Dropcaps */
+
+#lit div p::first-letter {
+    color:cornsilk;
+    font-size:4em;
+    padding: .2em;
+    line-height:.8;
+    border: outset whitesmoke;
+    font-family: "Neonderthaw";
+    float: left;
+    margin: 0.1em 0.1em 0.1em 0;
+    padding: 0.2em;
+    background-image:repeating-linear-gradient(whitesmoke, darkolivegreen);
+    text-shadow: 5px 5px rgba(0,0,0,.5);
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5)
+    border-top-right radius; 0.5em;em;
+    border-bottom-left-radius: .5em;
+}
+
+
