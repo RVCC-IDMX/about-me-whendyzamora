@@ -66,10 +66,13 @@ a:hover {
 #gallery {
     border: 2px solid white;
     margin-bottom:2rem;
+
 }
 
 #gallery img {
-    max width:100%;
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 #gallery figure {
@@ -78,7 +81,7 @@ a:hover {
 
 /* Literature */
 
-}
+
 
 #lit {
     text-align: right;
@@ -99,7 +102,7 @@ a:hover {
 
 /* Dropcaps */
 
-#lit div p::first-letter {
+#lit div p:first-child::first-letter {
     color:cornsilk;
     font-size:4em;
     padding: .2em;
@@ -112,10 +115,11 @@ a:hover {
     background-image:repeating-linear-gradient(whitesmoke, darkolivegreen);
     text-shadow: 5px 5px rgba(0,0,0,.5);
     box-shadow: 10px 10px 10px rgba(0,0,0,.5)
-    border-top-right radius; 0.5em;em;
+    border-top-right radius; 0.5em;
     border-bottom-left-radius: .5em;
 }
 
+/* tablet size */
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
@@ -131,3 +135,33 @@ a:hover {
 
  }
 
+ figure img {
+     width: 100%;
+ }
+
+ #lit div{
+     max-width: 100%;
+     columns: 20rem;
+ }
+
+ /* large screen size */
+
+ @media screen and (min-width: 100em) {
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+     
+ hr {
+     display: none;
+ }
+
+ #gallery h2 {
+    grid-column: 1/-1;
+ }
+
+figure {
+    display: block;
+}
+ }
