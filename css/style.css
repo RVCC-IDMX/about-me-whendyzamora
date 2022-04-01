@@ -7,7 +7,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Monoton";
-    font-size: 50pt;
+    font-size: 40pt;
     text-align:center;
 }
 h2 { 
@@ -143,6 +143,7 @@ a:hover {
         align-items: center;
         display:block; 
         margin:auto; 
+        max-width: 100% 
         }
 
         .iframe {
@@ -205,6 +206,7 @@ iframe {
     align-items: center;
     display:block; 
     margin:auto; 
+    max-width: 100% 
     }
 
     figcaption {
