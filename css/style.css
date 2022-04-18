@@ -7,7 +7,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Monoton";
-    font-size: 40pt;
+    font-size: 30pt;
     text-align:center;
 }
 h2 { 
@@ -44,12 +44,17 @@ figcaption {
     text-align: center
     ;}
 
-#video {
-    justify-content: center;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-}    
+    iframe { 
+        align-items: center;
+        display:block; 
+        margin:auto; 
+        max-width: 100% 
+        }
+
+        .iframe {
+            justify-content: center;
+            display: block;
+        }  
 
 /* Hobbies Section */
 
@@ -131,6 +136,19 @@ a:hover {
     border-bottom-left-radius: .5em;
     border-top-left-radius: .5em;
  } 
+
+ /* Contact Form */
+
+ #formElements {
+     display:grid;
+     row-gap: .3em;
+ }
+
+ #contact {
+     padding: 1rem;
+     max-width: 600px;
+     margin: 2rem auto;
+ }
 
 /* tablet size */
 @media screen and (min-width: 60em) {
