@@ -20,8 +20,30 @@ main {
 
 /* navbar */
 
+.navbar {
+    background-color: darkolivegreen;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
 
 /* logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 6vw;
+    width: 6vw;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+}
 
 
 /* navigation list */
