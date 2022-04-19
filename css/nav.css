@@ -58,12 +58,22 @@ main {
 
 .navbar-links a {
     color: cornsilk;
-    background-attachment: #c7741c;
+    background-color: #c7741c;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
     font-size: 2rem;
     padding: 1rem 1rem;
     letter-spacing: 1.5px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links a:hover, .navbar-links a:focus {
+color: cornsilk;
+background-color: olive;
+filter: invert(30%);
+border-radius: 8px; 
+
 }
 
 
