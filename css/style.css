@@ -66,9 +66,13 @@ figcaption {
 }
 
 #hobbies ul li:nth-child(odd) {
-    color: #7A4811;
+    color: cornsilk;
 }
 
+/*link color*/
+a:link {
+    color: black;
+}
 
 ul {
     padding-left: 0;
@@ -76,7 +80,7 @@ ul {
 }
 
 a:hover {
-    color:darkolivegreen
+    color: cornsilk;
 }
 
 /* Gallery */
@@ -99,7 +103,6 @@ a:hover {
 }
 
 /* Literature */
-
 
 
 #lit {
