@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Tangerine:wght@700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">     
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/nav.css" rel="stylesheet" />
 
@@ -20,11 +23,11 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/Untitled (Logo) (900 × 900 px).svg" width="300" height="200" alt="My initials logo"/>
+            <img src="img/Untitled (Logo) (900 × 900 px).svg" width="300" height="200" alt="My initials logo"/>
                 <h1>Web Dev I</h1>
             </div>
             <div class="navbar-links">
-                <ul>
+                <ul class="nav__menu">
                    <li><a href="#bio">Bio</a></li>
                    <li><a href="#gallery">Gallery</a></li>
                    <li><a href="#lit">Blog</a></li>
@@ -32,6 +35,7 @@
                 </ul>
             </div>
         </nav>
+
         </header>
 
 
@@ -53,7 +57,6 @@
 
         <!-- bio section! : personal info (not too personal) -->
    
-        <main id="box">
         <h2>Biography</h2>
    
         <div>
@@ -141,34 +144,26 @@
 
     <h2>Variable Fonts</h2>
 
-
-    <div>
-
-        <p>When the first thought of variable fonts arises, in all likelihood, the first thought should be on the right path. The definition is practically in the name. However, let us look at a formal definition. According to developer.mozilla.org, “variable fonts are an evolution of the OpenType font specification that enables many different variations of a typeface to be incorporated into a single file, rather than having a separate font file for every width, weight, or style.” To put it into layman’s terms, what did they mean in reality? It simply means they are fonts that can be adjusted—sounds excellent.</p>
+        <p>When the first thought of variable fonts arises, in all likelihood, the first thought should be on the right path. The definition is practically in the name. However, let us look at a formal definition. According to developer.mozilla.org, “variable fonts are an evolution of the OpenType font specification that enables many different variations of a typeface to be incorporated into a single file, rather than having a separate font file for every width, weight, or style.” To put it into layman’s terms, what did they mean in reality? It simply means they are fonts that can be adjusted—sounds excellent. Nevertheless, like with everything in life, one must take the good with the bad, meaning that variable fonts have cons. Even so, being able to modify fonts is functional, yet they are an underrated tool. Now, why is that? Variable fonts have been around for many years and have come a long way. However, while the technology has advanced, it does not mean that variable fonts are popular or even widely used. Variable fonts do not have market demand, or there are not many instruments that utilize them. Not to mention, not all browsers support design apps, according to typetype.org. </p>
         <figure>
             <img src="img/variable-n.gif" id="image4" alt="a variable font n" width="400" height="200">
         </figure>
         <figcaption>(courtesy of TT Norms Pro Variable)</figcaption>
-
-        <p>Nevertheless, like with everything in life, one must take the good with the bad, meaning that variable fonts have cons. Even so, being able to modify fonts is functional, yet they are an underrated tool. Now, why is that? Variable fonts have been around for many years and have come a long way. However, while the technology has advanced, it does not mean that variable fonts are popular or even widely used. Variable fonts do not have market demand, or there are not many instruments that utilize them. Not to mention, not all browsers support design apps, according to typetype.org. </p>
         
         <figure>
             <img src="img/Browser Variable.png" id="image5" alt="a chart of browsers that support design apps" width="400" height="200">
             <figcaption>(courtesy of v-fonts.com)</figcaption>
         </figure>
 
-        <p>To be clear, variable fonts do not have filters or effects that can be added on top of the font. So no, they are already directly built into the font. This means the span and possibilities of the font design have already been created and considered by the font designer. Therefore, proceed with caution.
-
-            One must also keep in mind that not all fonts are variable fonts. Nonetheless, they can be found at sites like Adobe Fonts, which have a few in their font library, and Google Fonts also have them. So despite those top-dog companies, one may want to support smaller businesses. No worries, that is why I am here—Check out all the fun places where variable fonts can be found too:</p>
-            
+        <p>To be clear, variable fonts do not have filters or effects that can be added on top of the font. So no, they are already directly built into the font. This means the span and possibilities of the font design have already been created and considered by the font designer. Therefore, proceed with caution. One must also keep in mind that not all fonts are variable fonts. Nonetheless, they can be found at sites like Adobe Fonts, which have a few in their font library, and Google Fonts also have them. So despite those top-dog companies, one may want to support smaller businesses. No worries, that is why I am here—Check out all the fun places where variable fonts can be found too:</p>
             <ul>
                 <li><a href=https://www.futurefonts.xyz>Futurefonts.xyz</a></li>
                 <li><a href=https://djr.com>Djr.com</a></li>
                 <li><a href=https://www.briefcasetype.com>Briefcasetype.com</a></li>
                 <li><a href=http://gt-alpina.com>Gt-alpina.com</a></li>
             </ul>
-
-       <p>First, design software that supports these types of fonts is needed. However, the technologies are in the early days for this upcoming software, Illustrator, Photoshop, and InDesign work! Unfortunately, according to future fonts.xyz, the interface to control variable fonts is a tad bit hidden, but luckily they have got that covered:</p>
+        
+       <p>First, design software that supports these types of fonts is needed. However, the technologies are in the early days for this upcoming software, Illustrator, Photoshop, and InDesign work! Unfortunately, according to future fonts.xyz, the interface to control variable fonts is a tad bit hidden, but luckily they have got that covered:</p> </div>
 
         <figure>
             <img src="img/find adobe variable font.png" id="image6" alt="a screenshot of where to find the button to work with variable fonts" width="400" height="200">
@@ -190,7 +185,7 @@
 
 <section id="contact">
 
-    <h2>Contact Us</h2>
+    <h2>Contact Me</h2>
 
     <form id="ContactForm" name="contactForm" method="post" data-netlify="true">
 
