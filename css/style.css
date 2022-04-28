@@ -79,10 +79,26 @@ figcaption {
         justify-content: space-around;
         }
 
-        .iframe {
+    /* fixed iframe responsiveness with help from tutoring center*/
+
+    #ivideo {
+        margin: auto;
+        width: 80%;
+    }
+
+    iframe { 
+        justify-content: center;
+        align-items: center;
+        display:block; 
+        margin:auto; 
+        max-width: 80%; 
+        }
+
+        /*.iframe {
+            max-width: 80%;
             justify-content: center;
             display: block;
-        }  
+        }*/ 
 
 /* Hobbies Section */
 
@@ -155,10 +171,9 @@ a:hover {
  } 
 
  #lit img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-}
+    max-width: auto;
+    max-height: auto;
+    }
 
 #lit figure {
     text-align: center;
@@ -254,13 +269,13 @@ a:hover {
         align-items: center;
         display:block; 
         margin:auto; 
-        max-width: 100% 
+        max-width: 80%; 
         }
 
-        .iframe {
+        /*.iframe {
             justify-content: center;
             display: block;
-        }
+        }*/
 
  figcaption {
      display: flex;
@@ -317,7 +332,7 @@ iframe {
     align-items: center;
     display:block; 
     margin:auto; 
-    max-width: 100% 
+    max-width: 80%; 
     }
 
     figcaption {
@@ -331,9 +346,9 @@ iframe {
     #video h2 {
         text-align: center;
     }
+}
 
-    .iframe {
+    /*.iframe {
         justify-content: center;
         display: block;
-    }
-}
+    }*/
