@@ -185,7 +185,13 @@ a:hover {
 #lit figure {
     text-align: center;
 }
- 
+
+/*images made responsive with help from w3schools*/
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
  #lit {
     font-size: 2rem;
