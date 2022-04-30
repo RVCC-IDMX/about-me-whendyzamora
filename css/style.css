@@ -40,6 +40,7 @@ header {
 /* Bio Section with help from W3docs.com and developer.mozillla */
 
 #bio {
+    font-size: 2rem;
     box-sizing: border-box;
     background-color: darkolivegreen;
     border: 3px solid #7A4811;
@@ -106,6 +107,7 @@ figcaption {
 /* Hobbies Section */
 
 #hobbies {
+    font-size: 2rem;
     box-sizing: border-box;
         border: 2px solid #7A4811;
         background-color: darkolivegreen;
@@ -150,6 +152,7 @@ a:hover {
 }
 
 #gallery figure {
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -185,6 +188,7 @@ a:hover {
  
 
  #lit {
+    font-size: 2rem;
     box-sizing: border-box;
     background-color: darkolivegreen;
     border: 3px solid #7A4811;
@@ -261,6 +265,7 @@ a:hover {
 
 /* tablet size */
 @media screen and (min-width: 60em) {
+
 
     figure {
         display: grid;
